@@ -54,25 +54,6 @@ namespace S2E12_Variables
 
 
             Console.WriteLine(d1);
-
-
-            /*
-             * namespace S2E13_Literals
-
-    class S2E13
-    {
-        static void Main(string[] args)
-        {
-            Variables();
-        }
-
-        static void Variables() 
-        {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
-        }
-    }
-*/
         }
     }
 }
