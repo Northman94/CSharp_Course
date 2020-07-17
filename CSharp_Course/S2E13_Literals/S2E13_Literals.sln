@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E13_Literals", "S2E13_Literals.csproj", "{EBF5A8F0-B437-45FA-9F8D-8C8B0724310C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF5A8F0-B437-45FA-9F8D-8C8B0724310C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF5A8F0-B437-45FA-9F8D-8C8B0724310C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF5A8F0-B437-45FA-9F8D-8C8B0724310C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF5A8F0-B437-45FA-9F8D-8C8B0724310C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
