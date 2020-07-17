@@ -18,7 +18,7 @@ namespace S2E13_Literals
             int y = 0b1001;       // ( = )
 
             int k = 0b10001001;
-            For more convenience we can write it in this way too:
+            //For more convenience we can write it in this way too:
             int m = 0b1000_1001;
 
             Console.WriteLine(x);
