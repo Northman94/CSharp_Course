@@ -39,6 +39,18 @@ namespace S2E13_Literals
             Console.WriteLine(k);
             Console.WriteLine(m);
 
+
+            Console.WriteLine(4.5e2);    //= 4.5 * 10^2 = 450
+            Console.WriteLine(3.1E-1);  //= 3.1 * 10^-1 = 0,31
+            Console.WriteLine();
+
+            Console.WriteLine('\x78');    // Hexadecimal value used. x
+            Console.WriteLine('\x5A');   // Z
+
+            //Unicode:
+            Console.WriteLine('\u0420');  // P 
+            Console.WriteLine('\u0421'); // C
+
             Console.ReadLine();
         }
     }
