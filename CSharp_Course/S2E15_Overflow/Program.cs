@@ -6,8 +6,8 @@ namespace S2E15_Overflow
     {
         static void Main(string[] args)
         {
-            checked // !!!
-            {
+            //checked // !!!
+            //{
                 uint x = uint.MaxValue;
 
                 Console.WriteLine(x); // 4294967295
@@ -19,7 +19,7 @@ namespace S2E15_Overflow
                 x -= 1;
 
                 Console.WriteLine(x); // 4294967295
-            }
+            //}
 
         }
     }
