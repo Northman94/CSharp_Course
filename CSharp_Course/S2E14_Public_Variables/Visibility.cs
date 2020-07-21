@@ -2,7 +2,7 @@
 
 namespace S2E14_Public_Variables
 {
-    class Program
+    class Visibility
     {
         static void Main(string[] args)
         {
