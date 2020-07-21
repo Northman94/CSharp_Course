@@ -44,7 +44,7 @@ namespace S2E13_Literals
             Console.WriteLine(3.1E-1);  //= 3.1 * 10^-1 = 0,31
             Console.WriteLine();
 
-            Console.WriteLine('\x78');    // Hexadecimal value used. x
+            Console.WriteLine('\x78');    // Hexadecimal value is used. x
             Console.WriteLine('\x5A');   // Z
 
             //Unicode:
