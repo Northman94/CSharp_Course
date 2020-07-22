@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E12_Variables", "S2E12_Va
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E13_Literals", "S2E13_Literals\S2E13_Literals.csproj", "{BACC7953-DB74-4F95-90E7-3DF7DBA54214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E14_Public_Variables", "S2E14_Public_Variables\S2E14_Public_Variables.csproj", "{DFC6537D-0B6F-4D60-9D41-56008BCB02B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E14_Public_Variables", "S2E14_Public_Variables\S2E14_Public_Variables.csproj", "{DFC6537D-0B6F-4D60-9D41-56008BCB02B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E15_Overflow", "S2E15_Overflow\S2E15_Overflow.csproj", "{4DF345FB-5D24-4096-AB3F-00B083D4FC6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E15_Overflow", "S2E15_Overflow\S2E15_Overflow.csproj", "{4DF345FB-5D24-4096-AB3F-00B083D4FC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E16_Algebraic_Operations", "S2E16_Algebraic_Operations\S2E16_Algebraic_Operations.csproj", "{071C1BDE-BC3B-4062-AD33-730E98D5B7D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4DF345FB-5D24-4096-AB3F-00B083D4FC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF345FB-5D24-4096-AB3F-00B083D4FC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF345FB-5D24-4096-AB3F-00B083D4FC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071C1BDE-BC3B-4062-AD33-730E98D5B7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071C1BDE-BC3B-4062-AD33-730E98D5B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071C1BDE-BC3B-4062-AD33-730E98D5B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071C1BDE-BC3B-4062-AD33-730E98D5B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
