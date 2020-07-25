@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E15_Overflow", "S2E15_Ove
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E16_Algebraic_Operations", "S2E16_Algebraic_Operations\S2E16_Algebraic_Operations.csproj", "{071C1BDE-BC3B-4062-AD33-730E98D5B7D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E17_Static", "S2E17_Static\S2E17_Static.csproj", "{F696C770-5A3C-4CDA-987E-A1FC3E41631D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E17_Static", "S2E17_Static\S2E17_Static.csproj", "{F696C770-5A3C-4CDA-987E-A1FC3E41631D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E18_Basic_strings_API", "S2E18_Basic_strings_API\S2E18_Basic_strings_API.csproj", "{5F341F52-5E8F-48AA-B4F8-29A4C7C9A2B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F696C770-5A3C-4CDA-987E-A1FC3E41631D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F696C770-5A3C-4CDA-987E-A1FC3E41631D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F696C770-5A3C-4CDA-987E-A1FC3E41631D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F341F52-5E8F-48AA-B4F8-29A4C7C9A2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F341F52-5E8F-48AA-B4F8-29A4C7C9A2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F341F52-5E8F-48AA-B4F8-29A4C7C9A2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F341F52-5E8F-48AA-B4F8-29A4C7C9A2B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
