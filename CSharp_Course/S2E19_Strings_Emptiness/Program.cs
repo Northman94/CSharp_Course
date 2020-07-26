@@ -8,6 +8,7 @@ namespace S2E19_Strings_Emptiness
         {
             string nullString = null; // = instance absence in memory. No name.method
             string empty = "";
+            string empty2 = string.Empty; // Same as ""
             string whiteSpaced = " ";
             string spaceAndChara = " H";
             
