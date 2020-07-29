@@ -15,8 +15,7 @@ namespace S2E22_String_Formatting
 
             //String interpolation: $"Text & {variable}";
             string str3 = $"My name is {name} and I'm {age} y.o.";
-            
-            Console.WriteLine(str2);
+
 
             // Escape-sequience
             // \n = new line
@@ -35,14 +34,9 @@ namespace S2E22_String_Formatting
 
             //Slash for slash // Экранирование
             string str7 = "C:\\tmp\\best_file.txt";
-            Console.WriteLine(str7);
 
             // Verbatim strings for same purpose
             string str8 = @"C:\tmp\best_file.txt";
-
-            Console.WriteLine(str8);
-            
-
         }
     }
 }

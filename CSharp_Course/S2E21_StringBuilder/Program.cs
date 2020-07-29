@@ -9,7 +9,7 @@ namespace S2E21_StringBuilder
         {
             // StringBuilder is the Fastest solution for big strings Concatination
             StringBuilder sb = new StringBuilder();
-            // Requires:  using System.Text;
+            // ^ Requires:  using System.Text;
             sb.Append("Great ");
             sb.Append("day");
             sb.AppendLine("!");  // Transfers cursor to the new line
