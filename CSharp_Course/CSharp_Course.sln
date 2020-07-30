@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E21_StringBuilder", "S2E2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E22_String_Formatting", "S2E22_String_Formatting\S2E22_String_Formatting.csproj", "{E211920A-2D33-4882-8E57-5AB15F7C459F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E22_Strings_Comparison", "S2E22_Strings_Comparison\S2E22_Strings_Comparison.csproj", "{A5D56918-19A2-4015-AF7B-7579EA5FDB98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E22_Strings_Comparison", "S2E22_Strings_Comparison\S2E22_Strings_Comparison.csproj", "{A5D56918-19A2-4015-AF7B-7579EA5FDB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E23_Console", "S2E23_Console\S2E23_Console.csproj", "{72F5D0EE-D70C-42D7-A85F-94F7E7A22D48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{A5D56918-19A2-4015-AF7B-7579EA5FDB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D56918-19A2-4015-AF7B-7579EA5FDB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D56918-19A2-4015-AF7B-7579EA5FDB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F5D0EE-D70C-42D7-A85F-94F7E7A22D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F5D0EE-D70C-42D7-A85F-94F7E7A22D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F5D0EE-D70C-42D7-A85F-94F7E7A22D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F5D0EE-D70C-42D7-A85F-94F7E7A22D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
