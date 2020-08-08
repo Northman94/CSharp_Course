@@ -32,7 +32,7 @@ namespace S2E24_Parsing
             int x = 5;
             int result = x / 2; // = 2
 
-            double result2 = (double)x / 2; // 2.5
+            double result2 = (double)x / 2; // 2.5 
         }
     }
 }
