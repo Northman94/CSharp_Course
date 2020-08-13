@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E22_Strings_Comparison", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E23_Console", "S2E23_Console\S2E23_Console.csproj", "{72F5D0EE-D70C-42D7-A85F-94F7E7A22D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E24_Parsing", "S2E24_Parsing\S2E24_Parsing.csproj", "{6F090C23-E5F3-4901-B478-778CD08F01DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E24_Parsing", "S2E24_Parsing\S2E24_Parsing.csproj", "{6F090C23-E5F3-4901-B478-778CD08F01DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E27_Class_Math", "S2E27_Class_Math\S2E27_Class_Math.csproj", "{806D191C-9A09-479E-B083-B0B2CA813F40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{6F090C23-E5F3-4901-B478-778CD08F01DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F090C23-E5F3-4901-B478-778CD08F01DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F090C23-E5F3-4901-B478-778CD08F01DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806D191C-9A09-479E-B083-B0B2CA813F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806D191C-9A09-479E-B083-B0B2CA813F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806D191C-9A09-479E-B083-B0B2CA813F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806D191C-9A09-479E-B083-B0B2CA813F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
