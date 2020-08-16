@@ -78,10 +78,26 @@ namespace S2E30_HW_1
             Console.WriteLine("Please Enter your height (Meters)");
             float height = float.Parse(Console.ReadLine());
 
-            float BMI = (weight / height) * height;
+            float BMI = weight / (height * height);
 
-            Console.WriteLine($"\n\n Your profile: \n Full name: {surname} {name};\n " +
-            $"Age: {age};\n Weight: {weight};\n Height: {height};\n Body Mass index: {BMI}.");
+            Console.WriteLine(
+                $"\n\n Your profile: \n" +
+                $"Full name: {surname} {name};\n " +
+                $"Age: {age};\n " +
+                $"Weight: {weight};\n " +
+                $"Height: {height};\n " +
+                $"Body Mass index: {BMI}.");
+
+            // -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+            //Same variation
+            Console.WriteLine(
+                $"\n\n Your profile: {Environment.NewLine} " +
+                $"Full name: {surname} {name}; {Environment.NewLine}" +
+                $"Age: {age}; {Environment.NewLine}" +
+                $"Weight: {weight}; {Environment.NewLine}" +
+                $"Height: {height}; {Environment.NewLine}" +
+                $"Body Mass index: {BMI}.");
+
         }
     }
 }
