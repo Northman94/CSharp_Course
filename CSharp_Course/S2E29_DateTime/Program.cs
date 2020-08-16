@@ -12,7 +12,7 @@ namespace S2E29_DateTime
             Console.WriteLine($"It's {now1.Date}, {now1.Hour}:{now1.Minute}");
 
             DateTime t2 = new DateTime(2016, 8, 15);
-            //I no time added => midnight 00:00
+            //If no time added => midnight 00:00
 
             DateTime dayAdition = t2.AddDays(1);
             Console.WriteLine(dayAdition);

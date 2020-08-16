@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E27_Class_Math", "S2E27_C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E28_Arrays_Intro", "S2E28_Arrays_Intro\S2E28_Arrays_Intro.csproj", "{8B70D4F9-0BFE-4826-B052-47C30C3D246A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E29_DateTime", "S2E29_DateTime\S2E29_DateTime.csproj", "{1FE8891B-A9E1-48A6-9CA2-97D550EB8874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E29_DateTime", "S2E29_DateTime\S2E29_DateTime.csproj", "{1FE8891B-A9E1-48A6-9CA2-97D550EB8874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2E30_HW_1", "S2E30_HW_1\S2E30_HW_1.csproj", "{B23C9FDE-F7C9-4745-AC51-A8F974A6ED6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{1FE8891B-A9E1-48A6-9CA2-97D550EB8874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE8891B-A9E1-48A6-9CA2-97D550EB8874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE8891B-A9E1-48A6-9CA2-97D550EB8874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23C9FDE-F7C9-4745-AC51-A8F974A6ED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23C9FDE-F7C9-4745-AC51-A8F974A6ED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23C9FDE-F7C9-4745-AC51-A8F974A6ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23C9FDE-F7C9-4745-AC51-A8F974A6ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
