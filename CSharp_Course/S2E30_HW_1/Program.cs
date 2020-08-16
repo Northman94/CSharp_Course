@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 
 namespace S2E30_HW_1
 {
@@ -40,6 +41,47 @@ namespace S2E30_HW_1
             int charAmmount = numb3.Length;
 
             Console.WriteLine(charAmmount);
+
+            // -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+            // S2E33_HW_2
+            Console.WriteLine("\n\n We have a triangle. Let's find it's square/area.");
+            Console.WriteLine("Enter side a cm size:");
+            float a = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter side b cm size:");
+            float b = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter side c cm size:");
+            float c = float.Parse(Console.ReadLine());
+            // P is a triangle half preimeter
+            float p = (a + b + c) / 2;
+
+            double S = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+
+            Console.WriteLine($"Triangle suqare area is: {S} cm2");
+
+            
+            // -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+            //S2E34_HW3    -   Body mass index
+            Console.WriteLine("Please Enter your profile surname");
+            string surname = Console.ReadLine();
+            
+            Console.WriteLine("Please Enter your profile name");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Please Enter your age");
+            int age = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please Enter your weight (Kg)");
+            float weight = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please Enter your height (Meters)");
+            float height = float.Parse(Console.ReadLine());
+
+            float BMI = (weight / height) * height;
+
+            Console.WriteLine($"\n\n Your profile: \n Full name: {surname} {name};\n " +
+            $"Age: {age};\n Weight: {weight};\n Height: {height};\n Body Mass index: {BMI}.");
         }
     }
 }
