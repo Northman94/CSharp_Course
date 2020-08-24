@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2E30_HW_1", "S2E30_HW_1\S2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E36_Conditionals", "S3E36_Conditionals\S3E36_Conditionals.csproj", "{1A4E94CF-6307-4C57-ADE3-39DAEE2B61B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E39_ For_Foreach_Cycles", "S3E39_ For_Foreach_Cycles\S3E39_ For_Foreach_Cycles.csproj", "{491D3AF1-74CF-4436-A9A6-E4C7015925CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E39_ For_Foreach_Cycles", "S3E39_ For_Foreach_Cycles\S3E39_ For_Foreach_Cycles.csproj", "{491D3AF1-74CF-4436-A9A6-E4C7015925CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E40_ Cycle_In_Cycle", "S3E40_ Cycle_In_Cycle\S3E40_ Cycle_In_Cycle.csproj", "{210BD7DC-C867-4377-95B3-9A0790950BC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E40_ Cycle_In_Cycle", "S3E40_ Cycle_In_Cycle\S3E40_ Cycle_In_Cycle.csproj", "{210BD7DC-C867-4377-95B3-9A0790950BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E41_While_DoWhile", "S3E41_While_DoWhile\S3E41_While_DoWhile.csproj", "{59C3F405-4C92-48FC-9557-2B5D1E37FD06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{210BD7DC-C867-4377-95B3-9A0790950BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{210BD7DC-C867-4377-95B3-9A0790950BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{210BD7DC-C867-4377-95B3-9A0790950BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C3F405-4C92-48FC-9557-2B5D1E37FD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C3F405-4C92-48FC-9557-2B5D1E37FD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C3F405-4C92-48FC-9557-2B5D1E37FD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C3F405-4C92-48FC-9557-2B5D1E37FD06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
