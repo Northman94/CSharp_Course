@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E39_ For_Foreach_Cycles",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E40_ Cycle_In_Cycle", "S3E40_ Cycle_In_Cycle\S3E40_ Cycle_In_Cycle.csproj", "{210BD7DC-C867-4377-95B3-9A0790950BC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E41_While_DoWhile", "S3E41_While_DoWhile\S3E41_While_DoWhile.csproj", "{59C3F405-4C92-48FC-9557-2B5D1E37FD06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E41_While_DoWhile", "S3E41_While_DoWhile\S3E41_While_DoWhile.csproj", "{59C3F405-4C92-48FC-9557-2B5D1E37FD06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E42_break_continue", "S3E42_break_continue\S3E42_break_continue.csproj", "{F414F938-873B-4FFE-A716-59119649FFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E42_break_continue", "S3E42_break_continue\S3E42_break_continue.csproj", "{F414F938-873B-4FFE-A716-59119649FFDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E43_Switch_Case", "S3E43_Switch_Case\S3E43_Switch_Case.csproj", "{2F185691-2B11-47FB-BA44-67FCAE328633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{F414F938-873B-4FFE-A716-59119649FFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F414F938-873B-4FFE-A716-59119649FFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F414F938-873B-4FFE-A716-59119649FFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F185691-2B11-47FB-BA44-67FCAE328633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F185691-2B11-47FB-BA44-67FCAE328633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F185691-2B11-47FB-BA44-67FCAE328633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F185691-2B11-47FB-BA44-67FCAE328633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
