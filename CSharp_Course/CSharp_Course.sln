@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3E42_break_continue", "S3E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E43_Switch_Case", "S3E43_Switch_Case\S3E43_Switch_Case.csproj", "{2F185691-2B11-47FB-BA44-67FCAE328633}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E44_Debugging", "S3E44_Debugging\S3E44_Debugging.csproj", "{6AEE6B74-C79E-4690-813D-778610EF2605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{2F185691-2B11-47FB-BA44-67FCAE328633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F185691-2B11-47FB-BA44-67FCAE328633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F185691-2B11-47FB-BA44-67FCAE328633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEE6B74-C79E-4690-813D-778610EF2605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEE6B74-C79E-4690-813D-778610EF2605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEE6B74-C79E-4690-813D-778610EF2605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEE6B74-C79E-4690-813D-778610EF2605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
