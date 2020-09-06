@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E43_Switch_Case", "S3E43_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E44_Debugging", "S3E44_Debugging\S3E44_Debugging.csproj", "{6AEE6B74-C79E-4690-813D-778610EF2605}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3E45_DZ_Fibonacci", "S3E45_DZ_Fibonacci\S3E45_DZ_Fibonacci.csproj", "{48BC390A-716E-40C0-B3D4-1823BE6C419B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{6AEE6B74-C79E-4690-813D-778610EF2605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEE6B74-C79E-4690-813D-778610EF2605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEE6B74-C79E-4690-813D-778610EF2605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BC390A-716E-40C0-B3D4-1823BE6C419B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BC390A-716E-40C0-B3D4-1823BE6C419B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BC390A-716E-40C0-B3D4-1823BE6C419B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BC390A-716E-40C0-B3D4-1823BE6C419B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
