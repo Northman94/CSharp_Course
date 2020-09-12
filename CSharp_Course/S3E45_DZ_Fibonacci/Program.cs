@@ -11,7 +11,6 @@ namespace S3E45_DZ_Fibonacci
 
             int[] FiboArray = new int[Fibonacci_sequence_length];
 
-
             int a = 1;
             int b = 1;
             int summAB = 0;
