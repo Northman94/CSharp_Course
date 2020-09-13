@@ -16,7 +16,7 @@ namespace S3E50_Factorial
 
             if (FactorialInput == 0 || FactorialInput == 1)
             {
-                Console.WriteLine($"Factorial of {FactorialInput}! = {FactorialInput}.");
+                Console.WriteLine($"Factorial of {FactorialInput}! = 1");
             }
             else
             {
