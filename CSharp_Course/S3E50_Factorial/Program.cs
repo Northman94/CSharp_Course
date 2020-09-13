@@ -35,12 +35,25 @@ namespace S3E50_Factorial
                 while (operationalVariable != 1);
             }
 
-            Console.Write($" = {FactorialInput}.");
+            Console.Write($" = {FactorialInput}."); 
         }
 
         static int GetFactorial()
         {
-            return int.Parse(Console.ReadLine()); 
+            return int.Parse(Console.ReadLine());
         }
     }
 }
+
+            /*
+            // Another shorter way:
+
+            int n = int.Parse(Console.ReadLine());
+
+            long factorial = 1; //Because 0! & 1! = 1;
+
+            for (int i = 1; i < n; i++)
+            {
+                factorial *= i;
+            }
+            */
