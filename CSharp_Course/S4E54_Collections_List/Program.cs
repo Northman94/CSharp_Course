@@ -12,7 +12,8 @@ namespace S4E54_Collections_List
 
             //using System.Collections.Generic;
             var intList = new List<int> {1, 4, 2, 7, 5, 9, 12};
-            intList.Add(8);
+
+            intList.Add(8); //to the end
 
 
             int[] array1 = {1,2,3};
@@ -20,8 +21,16 @@ namespace S4E54_Collections_List
             //Covering Array with List
             intList.AddRange(array1);
 
+            foreach (var item in intList)
+            {
+                Console.WriteLine(item); //1,4,2,7,5,9,12,8,1,2,3
+            }
+
+            Console.WriteLine();
+
+            
             //Deletes only first than could find:
-            if (intList.Remove(3))//returns bool
+            if (intList.Remove(12))//returns bool
             {
                 //do 
             }
@@ -32,6 +41,7 @@ namespace S4E54_Collections_List
 
             bool contains = intList.Contains(2);
 
+            Console.WriteLine();
 
             //using System.Linq;
             int min = intList.Min();
@@ -39,7 +49,7 @@ namespace S4E54_Collections_List
 
             Console.WriteLine($"Min = {min}, Max = {max}");
 
-
+            Console.WriteLine();
 
             int indexOf = intList.IndexOf(2); //First 2 to meet
             int lastIndexOf = intList.LastIndexOf(2); //Last 2 in List
@@ -49,15 +59,15 @@ namespace S4E54_Collections_List
             //Array = .Length // List = .Count
             for (int i = 0; i < intList.Count; i++)
             {
-                Console.WriteLine($"{intList[i]}");
+                Console.Write($"{intList[i]} ");
             }
 
+            Console.WriteLine();
 
             foreach (var item in intList)
             {
-                Console.WriteLine($"{item}");
+                Console.Write($"{item} ");
             }
-            Console.WriteLine();
         }
     }
 }
