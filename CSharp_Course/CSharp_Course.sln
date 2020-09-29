@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4E55_Dictionary", "S4E55_D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4E56_StackAndQueue", "S4E56_StackAndQueue\S4E56_StackAndQueue.csproj", "{2D13DDC1-627A-4DD2-A81F-418E39D16C6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4E57_MultidimensionalArrays", "S4E57_MultidimensionalArrays\S4E57_MultidimensionalArrays.csproj", "{BEA48F84-EB9A-44BB-AE8E-F91E02FD39C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4E58_JaggedArray", "S4E58_JaggedArray\S4E58_JaggedArray.csproj", "{C6ACE8DF-5570-4691-AFD6-BBFDDDD82E33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,14 @@ Global
 		{2D13DDC1-627A-4DD2-A81F-418E39D16C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D13DDC1-627A-4DD2-A81F-418E39D16C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D13DDC1-627A-4DD2-A81F-418E39D16C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA48F84-EB9A-44BB-AE8E-F91E02FD39C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA48F84-EB9A-44BB-AE8E-F91E02FD39C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA48F84-EB9A-44BB-AE8E-F91E02FD39C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA48F84-EB9A-44BB-AE8E-F91E02FD39C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6ACE8DF-5570-4691-AFD6-BBFDDDD82E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6ACE8DF-5570-4691-AFD6-BBFDDDD82E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6ACE8DF-5570-4691-AFD6-BBFDDDD82E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6ACE8DF-5570-4691-AFD6-BBFDDDD82E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
