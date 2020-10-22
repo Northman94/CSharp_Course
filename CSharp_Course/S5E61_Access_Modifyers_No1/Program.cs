@@ -11,7 +11,7 @@ namespace FirstNamespace1
 
             ch.Hit(10);
 
-            Console.WriteLine(ch.health);
+            Console.WriteLine(ch.Health);
         }
     }
 }
