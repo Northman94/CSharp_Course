@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E65_Method_Overload", "S5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E66_DZ_Parce_Roman_Numbs", "S5E66_DZ_Parce_Roman_Numbs\S5E66_DZ_Parce_Roman_Numbs.csproj", "{239DAB87-686A-455A-AA6D-6F116727BCE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E68_DZ_Overload", "S5E68_DZ_Overload\S5E68_DZ_Overload.csproj", "{FA0B9945-E159-47B5-92B6-5A8F840F1589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{239DAB87-686A-455A-AA6D-6F116727BCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{239DAB87-686A-455A-AA6D-6F116727BCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{239DAB87-686A-455A-AA6D-6F116727BCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0B9945-E159-47B5-92B6-5A8F840F1589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0B9945-E159-47B5-92B6-5A8F840F1589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0B9945-E159-47B5-92B6-5A8F840F1589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0B9945-E159-47B5-92B6-5A8F840F1589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

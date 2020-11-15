@@ -19,18 +19,23 @@ namespace S5E66_DZ_Parce_Roman_Numbs
             { 'M', 1000}
         };
 
+
         public static int Parcing(string roman)
         {
             int result = 0;
+
+            char n0;
 
             for (int i = 0; i < roman.Length; i++)
             {
                 if(i+1 < roman.Length && IsSubstractive(roman[i], roman[i+1]))
                 {
+                    n0 = roman[i];
                     result -= maping[roman[i]];
                 }
                 else
                 {
+                    n0 = roman[i];
                     result += maping[roman[i]];
                 }
             }
@@ -38,8 +43,12 @@ namespace S5E66_DZ_Parce_Roman_Numbs
         }
 
 
+
         private static bool IsSubstractive(char c1, char c2)
         {
+            int m1 = maping[c1];
+            int m2 = maping[c2];
+
             return maping[c1] < maping[c2];
         }
     }
