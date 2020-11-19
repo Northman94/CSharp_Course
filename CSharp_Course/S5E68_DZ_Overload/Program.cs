@@ -9,6 +9,8 @@ namespace S5E68_DZ_Overload
         {
             Triangle_Overload tr_over = new Triangle_Overload();
 
+            //tr_over.TwoSides(s1: 50, s2: 40, alpha: 30);
+
 
             Console.WriteLine("Enter 1st triangle side.");
             double side1 = double.Parse(Console.ReadLine());
