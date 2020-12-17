@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E72_out-parameter", "S5E7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E73_Static_Modificator", "S5E73_Static_Modificator\S5E73_Static_Modificator.csproj", "{C6427B35-EA12-45C2-9FB2-00152C1AD7F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E74_Optional_Parameters", "S5E74_Optional_Parameters\S5E74_Optional_Parameters.csproj", "{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{C6427B35-EA12-45C2-9FB2-00152C1AD7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6427B35-EA12-45C2-9FB2-00152C1AD7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6427B35-EA12-45C2-9FB2-00152C1AD7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
