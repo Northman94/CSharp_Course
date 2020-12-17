@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E73_Static_Modificator", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E74_Optional_Parameters", "S5E74_Optional_Parameters\S5E74_Optional_Parameters.csproj", "{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E75_Value_And_Reference_Types", "S5E75_Value_And_Reference_Types\S5E75_Value_And_Reference_Types.csproj", "{5C84209A-FE29-48C4-AAE0-0CA5B02522A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFBF51E6-2E05-4A5E-B7A6-E0D2CC2AD533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C84209A-FE29-48C4-AAE0-0CA5B02522A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C84209A-FE29-48C4-AAE0-0CA5B02522A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C84209A-FE29-48C4-AAE0-0CA5B02522A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C84209A-FE29-48C4-AAE0-0CA5B02522A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
