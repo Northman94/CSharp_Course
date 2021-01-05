@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E75_Value_And_Reference_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E77_StructuresContainingRefTyte", "S5E77_StructuresContainingRefTyte\S5E77_StructuresContainingRefTyte.csproj", "{348EF906-2A85-4CE8-81F3-0B8C3972AB33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E78_RefAndValueTypesAsArguments", "S5E78_RefAndValueTypesAsArguments\S5E78_RefAndValueTypesAsArguments.csproj", "{BCEF435F-A35F-4214-8139-98D9A62F0CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{348EF906-2A85-4CE8-81F3-0B8C3972AB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{348EF906-2A85-4CE8-81F3-0B8C3972AB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{348EF906-2A85-4CE8-81F3-0B8C3972AB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
