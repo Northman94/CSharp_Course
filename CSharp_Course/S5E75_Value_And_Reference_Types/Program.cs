@@ -21,7 +21,7 @@ namespace S5E75_Value_And_Reference_Types
             a1.LogValues(); //X = 3 & Y = 5;
             b2.LogValues(); //X = 7 & Y = 10;
 
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n\n"); //-- -- -- -- -- -- -- --
 
             //Ref types only fuly declared:
             PointRef c3 = new PointRef();
