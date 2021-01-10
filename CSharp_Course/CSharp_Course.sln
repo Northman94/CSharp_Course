@@ -97,6 +97,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E77_StructuresContainingR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E78_RefAndValueTypesAsArguments", "S5E78_RefAndValueTypesAsArguments\S5E78_RefAndValueTypesAsArguments.csproj", "{BCEF435F-A35F-4214-8139-98D9A62F0CAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E79_NullReferenceExeption", "S5E79_NullReferenceExeption\S5E79_NullReferenceExeption.csproj", "{CD8651C2-A463-4A87-8CD5-4FA5D31F8B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E80_BoxingAndUnboxing", "S5E80_BoxingAndUnboxing\S5E80_BoxingAndUnboxing.csproj", "{27565DE9-AF30-40D2-8188-85A4FD225C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +295,14 @@ Global
 		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCEF435F-A35F-4214-8139-98D9A62F0CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8651C2-A463-4A87-8CD5-4FA5D31F8B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8651C2-A463-4A87-8CD5-4FA5D31F8B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8651C2-A463-4A87-8CD5-4FA5D31F8B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8651C2-A463-4A87-8CD5-4FA5D31F8B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27565DE9-AF30-40D2-8188-85A4FD225C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27565DE9-AF30-40D2-8188-85A4FD225C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27565DE9-AF30-40D2-8188-85A4FD225C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27565DE9-AF30-40D2-8188-85A4FD225C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
