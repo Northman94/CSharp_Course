@@ -41,6 +41,8 @@ namespace S5E80_BoxingAndUnboxing
                 Console.WriteLine(pr.X);
             }
 
+            Console.WriteLine(isPointRef);
+
             //OR
 
             PointRef pr1 = obj2 as PointRef;
