@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace S5E83_Inheritance
+namespace S5E83_OOP_Inheritance
 {
     class MainClass
     {

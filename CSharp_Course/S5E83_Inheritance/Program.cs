@@ -1,10 +1,11 @@
 ﻿using System;
 
-namespace S5E83_Inheritance
+namespace S5E83_OOP_Inheritance
 {
     //Example of three Bank terminals communication with server
 
-    // "virtual" is used so some heirs could use basic class method & some could reuse it
+    // "virtual" is used so some heirs could use basic class
+    // method & some could reuse it
 
     public class BankTerminal
     {
@@ -19,7 +20,6 @@ namespace S5E83_Inheritance
         public virtual void Connect()
         {
             Console.WriteLine($"Basic Connection Protocol {id}.");
-
         }
 
     }
@@ -65,4 +65,3 @@ namespace S5E83_Inheritance
     }
 }
     
-
