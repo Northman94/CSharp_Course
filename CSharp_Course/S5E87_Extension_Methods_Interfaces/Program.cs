@@ -11,6 +11,7 @@ namespace S5E87_Extension_Methods_Interfaces
         void Remove(object obj);
     }
 
+
     //Extension method:
     public static class BaseCollectionExtension
     {
@@ -19,10 +20,14 @@ namespace S5E87_Extension_Methods_Interfaces
             foreach (var item in objects)
             {
                 IColl.Add(item);
+                Console.WriteLine("!!!");
             }
         }
     }
+    Ъ
 
+
+    // Class:
     public class BaseList : IBaseCollection
     {
         private int count = 0;
@@ -38,6 +43,7 @@ namespace S5E87_Extension_Methods_Interfaces
         {
             items[count] = obj;
             count++;
+            Console.WriteLine("+++");
         }
 
         public void Remove(object obj)

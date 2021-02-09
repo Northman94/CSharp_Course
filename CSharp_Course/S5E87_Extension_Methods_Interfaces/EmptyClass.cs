@@ -11,12 +11,11 @@ namespace S5E87_Extension_Methods_Interfaces
 
             IBaseCollection baseCollection = new BaseList(4);
 
-
+            Console.WriteLine("000");
             baseCollection.AddRange(list);
 
             //Boxing because 8 is a value type (obj)
             baseCollection.Add(8);
-
         }
     }
 }
