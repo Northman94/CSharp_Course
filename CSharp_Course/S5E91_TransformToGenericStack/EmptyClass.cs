@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace S5E90_ObjectBasedStack
+namespace S5E91_TransformToGenericStack
 {
-    public class MyStack
+    public class GenerStack<T>
     {
-        private object[] _items;
+        private T [] _items;
 
         //Property
         public int Count { get; private set; }
@@ -20,25 +20,25 @@ namespace S5E90_ObjectBasedStack
 
 
         //Constructor
-        public MyStack()
+        public GenerStack()
         {
             const int defaultCapacity = 4;
 
-            _items = new object[defaultCapacity];
+            _items = new T [defaultCapacity];
         }
 
         //Constructor #2
-        public MyStack(int capacity)
+        public GenerStack(int capacity)
         {
-            _items = new object[capacity];
+            _items = new T [capacity];
         }
 
 
-        public void Push(object item)
+        public void Push(T item)
         {
-            if(_items.Length == Count)
+            if (_items.Length == Count)
             {
-                object[] largerArr = new object[Count * 2];
+                T[] largerArr = new T[Count * 2];
                 Array.Copy(_items, largerArr, Count);
 
                 _items = largerArr;
@@ -54,12 +54,15 @@ namespace S5E90_ObjectBasedStack
             {
                 throw new InvalidOperationException();
             }
-
+            /*
             // Префиксный дикримент приоритетние взятия индекса[]
-            _items[--Count] = null; 
+            _items[--Count] = null;
+            */
+            // T не поддерживает null по этому используем:
+            _items[--Count] = default(T); //or just default
         }
 
-        public object Peek()
+        public T Peek()
         {
             if (Count == 0)
             {
