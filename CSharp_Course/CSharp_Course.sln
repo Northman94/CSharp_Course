@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E91_TransformToGenericSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E92_foreachAndIEnumerable", "S5E92_foreachAndIEnumerable\S5E92_foreachAndIEnumerable.csproj", "{8213BC53-5A97-426F-85EA-FA1D564978EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S5E93_yield", "S5E93_yield\S5E93_yield.csproj", "{633A02E8-2332-46E5-A965-12F511D8D5E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{8213BC53-5A97-426F-85EA-FA1D564978EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8213BC53-5A97-426F-85EA-FA1D564978EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8213BC53-5A97-426F-85EA-FA1D564978EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633A02E8-2332-46E5-A965-12F511D8D5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633A02E8-2332-46E5-A965-12F511D8D5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633A02E8-2332-46E5-A965-12F511D8D5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633A02E8-2332-46E5-A965-12F511D8D5E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

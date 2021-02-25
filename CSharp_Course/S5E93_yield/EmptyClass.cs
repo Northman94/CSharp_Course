@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace S5E92_foreachAndIEnumerable
+namespace S5E93_yield
 {
     public class GenerStack<T> : IEnumerable<T>
     {
@@ -53,7 +53,7 @@ namespace S5E92_foreachAndIEnumerable
         {
             if (Count == 0)
             {
-                throw new InvalidOperationException();
+                //throw new InvalidOperationException();
             }
             /*
             // Префиксный дикримент приоритетние взятия индекса[]
@@ -67,17 +67,28 @@ namespace S5E92_foreachAndIEnumerable
         {
             if (Count == 0)
             {
-                throw new InvalidOperationException();
+                //throw new InvalidOperationException();
             }
             return _items[Count - 1];
             // Не декрементируем каунтер, а берем последний элемент
             // ибо индексы идус с нуля
         }
-        // Неявная реализация
+        //Неявная реализация
+        /*
         public IEnumerator<T> GetEnumerator()
         {
             return new StackEnumerator<T>(_items, Count);
         }
+        */
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = Count - 1; i >= 0; i--)
+            {
+                yield return _items[i];
+            }
+        }
+
         // Явная реализация
         IEnumerator IEnumerable.GetEnumerator()
         {
@@ -103,7 +114,7 @@ namespace S5E92_foreachAndIEnumerable
             position = count;
         }
 
-        
+
         // public T Current => throw new NotImplementedException();
         // which is:
         public T Current
