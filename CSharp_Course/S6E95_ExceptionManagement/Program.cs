@@ -34,8 +34,10 @@ namespace S6E95_ExceptionManagement
                 Console.WriteLine(ex.ToString());
                 //Zero at the end - means success
             }
-            // - - - - - - - - - - - - - - - - - - - - - - - -
+            Console.WriteLine(number);
 
+            // - - - - - - - - - - - - - - - - - - - - - - - -
+            
 
             FileStream file = null; //using System.IO;
             try
@@ -61,7 +63,7 @@ namespace S6E95_ExceptionManagement
 
             }
 
-            Console.WriteLine(number);
+            
         }
     }
 }
