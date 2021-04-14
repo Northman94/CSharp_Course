@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using System.Collections.Generic;
 
 namespace S7E97_Files_and_Streams
 {
@@ -74,7 +75,7 @@ namespace S7E97_Files_and_Streams
 
 
             // REWRITE IN A BETTER WAY:
-
+            // READING:
             
             using (Stream readingStream = new FileStream("testRead.txt", FileMode.Open, FileAccess.Read))
             {
@@ -97,13 +98,59 @@ namespace S7E97_Files_and_Streams
                     bytesRead += n;
                     bytesToRead -= n;
                 }
-
                     string str2 = Encoding.ASCII.GetString(byteBuffer, 0, byteBuffer.Length);
                     Console.WriteLine(str2);
 
                 Console.ReadLine();
             }
-            
+
+
+            // --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
+            // Instead of using try / catch / finally:
+
+            // FILE WRITING:
+
+
+                // Array with a line separated by /n in each cell
+                string[] allLines = File.ReadAllLines("test.txt"); //Reads whole dock
+
+
+                // Text without division on separate lines:
+                string allText = File.ReadAllText("text.txt");
+
+
+            //Вычитывание строк по мере запроса клиентской стороной
+            // used for foreach
+            // Usefull for Huge Files. When there is no need to read it all
+            IEnumerable<string> lines = File.ReadLines("text.txt");
+
+
+            // If we have one string we want to add to a file
+            File.WriteAllText("test_2.txt", "My name is John.");
+
+            // No need to add /n in this command, every line in Array will have it
+            File.WriteAllLines("test_3.txt", new string[] { "My hobbies are: ", " Hockey & Snowboarding." });
+
+
+            File.WriteAllBytes("byteTest.txt", new byte[] { 72, 101, 108, 108, 111});
+
+
+
+
+            // FILE READING:
+
+
+            string allTest = File.ReadAllText("text_2.txt");
+            Console.WriteLine(allTest);
+
+
+            string[] allLines2 = File.ReadAllLines("test_3.txt");
+            Console.WriteLine(allLines2[0]);
+            Console.WriteLine(allLines2[1]);
+
+            byte[] bytesArr = File.ReadAllBytes("text_4.txt");
+            Console.WriteLine(Encoding.ASCII.GetString(bytesArr));
+
         }
     }
 }
