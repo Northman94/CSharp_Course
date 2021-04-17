@@ -40,6 +40,10 @@ namespace S9E107_Delegates
         public void RegisterOnTooFast(TooFast _tooFast)
         {
             this.tooFast = _tooFast;
+            // Это еще не совсем подписка на событие.
+            // Cинтаксис "=" может перезатереть список методов
+            // "+=" добавляет в очередь
+            // "-=" отписывает от события
         }
     }
 

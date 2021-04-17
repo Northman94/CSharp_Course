@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7E98_Files_Directories_Fol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S9E107_Delegates", "S9E107_Delegates\S9E107_Delegates.csproj", "{04CE7523-0122-44F0-A585-8E9D3A6421A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S9E108_Events_GenericDelegates_Action_Func", "S9E108_Events_GenericDelegates_Action_Func\S9E108_Events_GenericDelegates_Action_Func.csproj", "{896A46FC-3708-47B6-9C56-3B6199967E51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{04CE7523-0122-44F0-A585-8E9D3A6421A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04CE7523-0122-44F0-A585-8E9D3A6421A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04CE7523-0122-44F0-A585-8E9D3A6421A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896A46FC-3708-47B6-9C56-3B6199967E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896A46FC-3708-47B6-9C56-3B6199967E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896A46FC-3708-47B6-9C56-3B6199967E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896A46FC-3708-47B6-9C56-3B6199967E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
