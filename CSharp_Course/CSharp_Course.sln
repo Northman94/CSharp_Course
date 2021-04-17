@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6E95_ExceptionManagement",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7E97_Files_and_Streams", "S7E97_Files_and_Streams\S7E97_Files_and_Streams.csproj", "{8BB8A65E-0800-43FA-97B0-5D711BE82D39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7E98_Files_Directories_Folders", "S7E98_Files_Directories_Folders\S7E98_Files_Directories_Folders.csproj", "{A71D7308-8257-4F2E-9901-9AC9C6E00F32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{8BB8A65E-0800-43FA-97B0-5D711BE82D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB8A65E-0800-43FA-97B0-5D711BE82D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB8A65E-0800-43FA-97B0-5D711BE82D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71D7308-8257-4F2E-9901-9AC9C6E00F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71D7308-8257-4F2E-9901-9AC9C6E00F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71D7308-8257-4F2E-9901-9AC9C6E00F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71D7308-8257-4F2E-9901-9AC9C6E00F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
