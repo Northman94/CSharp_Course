@@ -39,6 +39,7 @@ namespace S9E107_Delegates
         }
     }
 
+
     class MainClass
     {
         static Car car;
@@ -58,6 +59,7 @@ namespace S9E107_Delegates
                 car.Accelerate();
             }
 
+            Console.WriteLine("Tesla detected high speed. STOP!");
             Console.ReadLine();
         }
 
