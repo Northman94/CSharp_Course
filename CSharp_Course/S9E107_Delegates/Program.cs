@@ -1,5 +1,7 @@
 ﻿using System;
 
+// All commented fields are one example of Delegate signature with int parameter in brackets
+
 namespace S9E107_Delegates
 {
     public class Car
@@ -7,6 +9,7 @@ namespace S9E107_Delegates
         int speed = 0;
 
         public delegate void TooFast(); //Delegate
+        //public delegate void TooFast(int currentSpeed); 
 
         private TooFast tooFast; //Delegate instance
 
@@ -24,6 +27,7 @@ namespace S9E107_Delegates
             if (speed > 80)
             {
                 tooFast();
+                //tooFast(speed);
             }
         }
 
@@ -67,5 +71,11 @@ namespace S9E107_Delegates
         {
             car.Stop();
         }
+        /*
+        private static void HandleOnTooFast(int speed) //Event Handler
+        {
+            car.Stop();
+        }
+        */
     }
 }
