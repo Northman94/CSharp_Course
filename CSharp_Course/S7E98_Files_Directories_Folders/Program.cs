@@ -92,7 +92,6 @@ namespace S7E98_Files_Directories_Folders
             Path.GetFileName("write path here");
 
             string combinedPath = Path.Combine(@"/Users/userName/Desktop", "/New Folder/image.jpg"); //Combines two strings into a Path
-
         }
     }
 }
