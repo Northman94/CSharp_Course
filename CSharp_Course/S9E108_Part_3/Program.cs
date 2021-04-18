@@ -1,16 +1,31 @@
 ﻿using System;
 using System.Timers;
 
-namespace S9E108_Part_2
+
+//Will output in console a line every 3 seconds
+
+namespace S9E108_Part_3
 {
+    public class CarArgs : EventArgs //Constructor
+    {
+        public CarArgs(int currentSpeed)
+        {
+            CurrentSpeed = currentSpeed;
+        }
+        public int CurrentSpeed { get;} //Property
+    }
+
+
     public class Car
     {
-       public event Action<object, int> TooFastDrivingEvent; //Event based on Action Delegate
+        public event EventHandler<CarArgs> TooFastDrivingEvent; // Contains Obj & our int
+
+        //public event Action<object, int> TooFastDrivingEvent; //Event based on Action Delegate
 
         int speed = 0;
 
 
- 
+
         public void Start()
         {
             speed = 10;
@@ -24,7 +39,8 @@ namespace S9E108_Part_2
             {
                 if (TooFastDrivingEvent != null)
                 {
-                    TooFastDrivingEvent(this, speed); //Вызов События как метода
+                    TooFastDrivingEvent(this, new CarArgs(speed));
+                    //Создание new экземпляра CarArgs + инкапсулировать в экземплар класса, который наследует EventArgs
                     //this = ссылка на текущий экземпляр Car car
                 }
             }
@@ -48,9 +64,13 @@ namespace S9E108_Part_2
 
             Car car = new Car(); //No need to be static anymore
 
-
             car.TooFastDrivingEvent += HandleOnTooFast;
 
+
+            timer.Interval = 3000;
+            timer.Start();
+
+            Console.ReadLine();
 
             car.Start();
 
@@ -64,12 +84,13 @@ namespace S9E108_Part_2
 
 
         // Method Handler / Метод оборатотчик 
-        private static void Timer_Elapsed(object _sender, ElapsedEventArgs e) 
+        private static void Timer_Elapsed(object _sender, ElapsedEventArgs e)
         {
-            var timer = (Timer)_sender;
+            //var timer = (Timer)_sender;
+            Console.WriteLine("Handling Timer elapsed Event");
         }
 
-        private static void HandleOnTooFast(object _obj, int speed) //Event Handler //_obj = Car car
+        private static void HandleOnTooFast(object _obj, CarArgs speed) //Event Handler //_obj = Car car
         {
             Console.WriteLine("Tesla detected high speed. STOP!");
 
