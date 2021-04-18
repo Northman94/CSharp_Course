@@ -25,7 +25,6 @@ namespace S9E108_Part_3
         int speed = 0;
 
 
-
         public void Start()
         {
             speed = 10;
