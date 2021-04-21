@@ -1,12 +1,15 @@
 ﻿using System;
 
+
+// Example of Delegate based Events
+
 namespace S9E108_Events_GenericDelegates_Action_Func
 {
     public class Car
     {
         public delegate void TooFast(int currentSpeed); //Delegate
 
-        public event TooFast TooFastDrivingEvent; //Event based on Delegate - now we dont need Delegate instance
+        public event TooFast TooFastDrivingEvent; //Delegate based Event - now we dont need Delegate instance
 
         int speed = 0;
 
@@ -39,7 +42,7 @@ namespace S9E108_Events_GenericDelegates_Action_Func
 
     class MainClass
     {
-        static Car car;
+        static Car car; //static because should be available in Main & HandleOnTooFast
 
         public static void Main(string[] args)
         {
@@ -47,8 +50,7 @@ namespace S9E108_Events_GenericDelegates_Action_Func
 
         
             car.TooFastDrivingEvent += HandleOnTooFast;
-
-            //car.TooFastDrivingEvent -= HandleOnTooFast;
+          //car.TooFastDrivingEvent -= HandleOnTooFast;
 
 
             car.Start();

@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+// Example of Delegates without Events.
 // All commented fields are one example of Delegate signature with int parameter in brackets
 
 namespace S9E107_Delegates

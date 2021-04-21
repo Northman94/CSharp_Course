@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Timers;
 
+
+// Action = combines Delegates & Events
+
 namespace S9E108_Part_2
 {
     public class Car
     {
-       public event Action<object, int> TooFastDrivingEvent; //Event based on Action Delegate
+       public event Action <object, int> TooFastDrivingEvent; //Event based on Action Delegate
 
         int speed = 0;
 
@@ -42,13 +45,10 @@ namespace S9E108_Part_2
         public static void Main(string[] args)
         {
             Timer timer = new Timer(); // using System.Timers;
-
             timer.Elapsed += Timer_Elapsed;
 
 
-            Car car = new Car(); //No need to be static anymore
-
-
+            Car car = new Car();
             car.TooFastDrivingEvent += HandleOnTooFast;
 
 
