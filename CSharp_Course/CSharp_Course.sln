@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S9E108_Part_2", "S9E108_Par
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S9E108_Part_3", "S9E108_Part_3\S9E108_Part_3.csproj", "{64047525-3D6A-4DFD-A456-42904E4B0E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S9E111_LINQ_and_Lambda_Expressions", "S9E111_LINQ_and_Lambda_Expressions\S9E111_LINQ_and_Lambda_Expressions.csproj", "{D211A70C-F94E-4FE9-A16E-C279B76668E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{64047525-3D6A-4DFD-A456-42904E4B0E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64047525-3D6A-4DFD-A456-42904E4B0E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64047525-3D6A-4DFD-A456-42904E4B0E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D211A70C-F94E-4FE9-A16E-C279B76668E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D211A70C-F94E-4FE9-A16E-C279B76668E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D211A70C-F94E-4FE9-A16E-C279B76668E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D211A70C-F94E-4FE9-A16E-C279B76668E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Timers;
 
-
 //Will output in console a line every 3 seconds
 
 namespace S9E108_Part_3

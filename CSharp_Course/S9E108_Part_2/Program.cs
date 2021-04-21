@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Timers;
 
-
 // Action = combines Delegates & Events
 
 namespace S9E108_Part_2

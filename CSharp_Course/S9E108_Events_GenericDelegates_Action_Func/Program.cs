@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 // Example of Delegate based Events
 
 namespace S9E108_Events_GenericDelegates_Action_Func

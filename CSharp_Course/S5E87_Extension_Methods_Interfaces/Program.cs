@@ -24,7 +24,7 @@ namespace S5E87_Extension_Methods_Interfaces
             }
         }
     }
-    Ъ
+    
 
 
     // Class:
