@@ -8,7 +8,7 @@ namespace S9E107_Delegates
     {
         int speed = 0;
 
-        public delegate void TooFast(); //Delegate
+          public delegate void TooFast();
         //public delegate void TooFast(int currentSpeed); 
 
         private TooFast tooFast; //Delegate instance
@@ -37,9 +37,10 @@ namespace S9E107_Delegates
         }
 
 
-        public void RegisterOnTooFast(TooFast _tooFast)
+        public void RegisterOnTooFast(TooFast _tooFast) //Method subscription!!!
         {
             this.tooFast = _tooFast;
+            // Экземпляр делегата подписывается с помощью метода обработчика на Event Handler
             // Это еще не совсем подписка на событие.
             // Cинтаксис "=" может перезатереть список методов
             // "+=" добавляет в очередь
@@ -56,7 +57,7 @@ namespace S9E107_Delegates
         {
             car = new Car();
 
-            car.RegisterOnTooFast(HandleOnTooFast);
+            car.RegisterOnTooFast(HandleOnTooFast); //Method subscription!!!
             // Method to trigger //Inner Method should correspond to Delegate signature
             // In this case inner Method should be void & have no parameters
 
