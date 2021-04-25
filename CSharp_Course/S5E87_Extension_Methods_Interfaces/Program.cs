@@ -12,7 +12,7 @@ namespace S5E87_Extension_Methods_Interfaces
     }
 
 
-    //Extension method:
+    //Extension method always in a static Class:
     public static class BaseCollectionExtension
     {
         public static void AddRange(this IBaseCollection IColl, IEnumerable <object> objects)
