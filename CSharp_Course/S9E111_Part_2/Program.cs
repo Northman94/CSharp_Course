@@ -26,7 +26,6 @@ namespace S9E111_Part_2
         }
     }
 
-
     class MainClass
     {
         public static void Main(string[] args)
@@ -36,7 +35,6 @@ namespace S9E111_Part_2
 
             Console.ReadLine();
         }
-
 
         private static void DisplayLargestFilesWithLINQ(string pathToDir)
         {
