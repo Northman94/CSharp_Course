@@ -7,43 +7,45 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-"Name", "Team", "Position", "Height(inches)", "Weight(lbs)", "Age"\
-"Adam Donachie", "BAL", "Catcher", 74, 180, 22.99\
-"Scott Williamson", "BAL", "Relief Pitcher", 72, 180, 31.03\
-"John Parrish", "BAL", "Relief Pitcher", 71, 192, 29.26\
+
+"ID"; Name"; "Team"; "Position"; "Height(inches)"; "Weight(lbs)"; "Age"\
+
+1;"Adam Donachie"; "BAL"; "Catcher"; 74; 180; 22.99\
+2;"Scott Williamson"; "BAL"; "Relief Pitcher"; 72; 180; 31.03\
+3;"John Parrish"; "BAL"; "Relief Pitcher"; 71; 192; 29.26\
 \
-"Josh Fields", "CWS", "Third Baseman", 73, 215, 24.21\
-"Ryan Sweeney", "CWS", "Outfielder", 76, 200, 22.02\
-"Brian N. Anderson", "CWS", "Outfielder", 74, 205, 24.97\
-"Luis Terrero", "CWS", "Outfielder", 74, 206, 26.78\
-"Pablo Ozuna", "CWS", "Outfielder", 70, 186, 32.51\
-"Nick Masset", "CWS", "Relief Pitcher", 76, 190, 24.79\
+4;"Josh Fields"; "CWS"; "Third Baseman"; 73; 215; 24.21\
+5;"Ryan Sweeney"; "CWS"; "Outfielder"; 76; 200; 22.02\
+6;"Brian N. Anderson"; "CWS"; "Outfielder"; 74; 205; 24.97\
+7;"Luis Terrero"; "CWS"; "Outfielder"; 74; 206; 26.78\
+8;"Pablo Ozuna"; "CWS"; "Outfielder"; 70; 186; 32.51\
+9;"Nick Masset"; "CWS"; "Relief Pitcher"; 76; 190; 24.79\
 \
-"Jose Molina", "ANA", "Catcher", 74, 220, 31.74\
-"Jeff Mathis", "ANA", "Catcher", 72, 180, 23.92\
-"Chris Resop", "ANA", "Relief Pitcher", 75, 222, 24.32\
-"Phil Seibel", "ANA", "Relief Pitcher", 73, 195, 28.09\
+10;"Jose Molina"; "ANA"; "Catcher"; 74; 220; 31.74\
+11;"Jeff Mathis"; "ANA"; "Catcher"; 72; 180; 23.92\
+12;"Chris Resop"; "ANA"; "Relief Pitcher"; 75; 222; 24.32\
+13;"Phil Seibel"; "ANA"; "Relief Pitcher"; 73; 195; 28.09\
 \
-"David Ortiz", "BOS", "Designated Hitter", 76, 230, 31.28\
-"Curt Schilling", "BOS", "Starting Pitcher", 77, 235, 40.29\
-"Joel Pineiro", "BOS", "Relief Pitcher", 73, 200, 28.43\
+14;"David Ortiz"; "BOS"; "Designated Hitter"; 76; 230; 31.28\
+15;"Curt Schilling"; "BOS"; "Starting Pitcher"; 77; 235; 40.29\
+16;"Joel Pineiro"; "BOS"; "Relief Pitcher"; 73; 200; 28.43\
 \
-"Cliff Lee", "CLE", "Starting Pitcher", 75, 190, 28.5\
-"Jake Westbrook", "CLE", "Starting Pitcher", 75, 185, 29.42\
-"Joe Borowski", "CLE", "Relief Pitcher", 74, 225, 35.82\
+17;"Cliff Lee"; "CLE"; "Starting Pitcher"; 75; 190; 28.5\
+18;"Jake Westbrook"; "CLE"; "Starting Pitcher"; 75; 185; 29.42\
+19;"Joe Borowski"; "CLE"; "Relief Pitcher"; 74; 225; 35.82\
 \
-"Jason Windsor", "OAK", "Starting Pitcher", 74, 233, 24.62\
-"David Shafer", "OAK", "Starting Pitcher", 74, 180, 24.98\
-"Marcus McBeth", "OAK", "Relief Pitcher", 73, 185, 26.52\
+20;"Jason Windsor; "OAK"; "Starting Pitcher"; 74; 233; 24.62\
+21;"David Shafer"; "OAK"; "Starting Pitcher"; 74; 180; 24.98\
+22;"Marcus McBeth"; "OAK"; "Relief Pitcher"; 73; 185; 26.52\
 \
-"Jorge Posada", "NYY", "Catcher", 74, 205, 35.54\
-"Wil Nieves", "NYY", "Catcher", 71, 190, 29.43\
-"Andy Phillips", "NYY", "First Baseman", 72, 205, 29.9\
-"Brian Bruney", "NYY", "Relief Pitcher", 75, 226, 25.03\
-"Neifi Perez", "DET", "Second Baseman", 72, 197, 33.74\
+23;"Jorge Posada"; "NYY"; "Catcher"; 74; 205; 35.54\
+24;"Wil Nieves"; "NYY"; "Catcher"; 71; 190; 29.43\
+25;"Andy Phillips"; "NYY"; "First Baseman"; 72; 205; 29.9\
+26;"Brian Bruney"; "NYY"; "Relief Pitcher"; 75; 226; 25.03\
+27;"Neifi Perez"; "DET"; "Second Baseman"; 72; 197; 33.74\
 \
-"Carlos Guillen", "DET", "Shortstop", 73, 204, 31.42\
-"Ramon Santiago", "DET", "Shortstop", 71, 167, 27.5\
-"Joel Zumaya", "DET", "Relief Pitcher", 75, 210, 22.31\
-"Edward Campusano", "DET", "Relief Pitcher", 76, 170, 24.63\
+28;"Carlos Guillen"; "DET"; "Shortstop"; 73; 204; 31.42\
+29;"Ramon Santiago"; "DET"; "Shortstop"; 71; 167; 27.5\
+30;"Joel Zumaya"; "DET"; "Relief Pitcher"; 75; 210; 22.31\
+31;"Edward Campusano"; "DET"; "Relief Pitcher"; 76; 170; 24.63\
 "}
