@@ -1,17 +1,33 @@
 ﻿using System;
+using System.Collections.Generic; //To use List<>
+using System.IO;
+using System.Linq;
 
 namespace S9E112_Parse_CSV_File
 {
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            MinMaxSumAverage("LINQ_DB.csv");
+        }
+
+        private static void MinMaxSumAverage(string v)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class BaseballPlayers
     {
-        public string Name { get; set;}
-        public string Team { get; set;}
-        public string Position { get; set;}
+        public string Name { get; set; }
+        public string Team { get; set; }
+        public string Position { get; set; }
 
-        public int Height_inches { get; set;}
-        public int Weight_LBS { get; set;}
-        public float Age { get; set;}
-        public int ID { get; set;}
+        public int Height_inches { get; set; }
+        public int Weight_LBS { get; set; }
+        public float Age { get; set; }
+        public int ID { get; set; }
 
 
         public override string ToString()
@@ -24,7 +40,7 @@ namespace S9E112_Parse_CSV_File
         // Иначе придется созадавать экземпляр BaseballPlayers.
         // Логично вызывать этот метод как static.
 
-        public static BaseballPlayers ParcseFideCSV (string line)
+        public static BaseballPlayers ParcseFideCSV(string line)
         {
             string[] parts = line.Split(';'); //Can be
 
@@ -48,15 +64,36 @@ namespace S9E112_Parse_CSV_File
                 Age = int.Parse(parts[6])
             };
         }
-    }
 
-    class MainClass
-    {
-        public static void Main(string[] args)
+
+        static void MinMaxSumAverage(string file)
         {
+            List<BaseballPlayers> list = File.ReadAllLines(file)
+                //ReadAllLines возвращает массив, который реализует: IEnumerable<T>
 
+                .Skip(1)
+                //Will skip line with column headers (Name, Age, etc.)
+                .Select(x => BaseballPlayers.ParcseFideCSV(x))
+                // Метод проекции - трансформирует каждый элемент в другой тип <T>
+                // Еквивалентно методу, который принимает экземпляр BaseballPlayers
+                // Select returns IEnumerable<BaseballPlayers>
+
+                // Lambda can be simplified:
+                //.Select(BaseballPlayers.ParcseFideCSV)
+
+                //Filtering:
+                .Where(player => player.Age > 25)
+                //Sorting
+                .OrderByDescending(player => player.Age)
+                .ThenBy(player => player.Height_inches)
+                .Take(10)  // Returns INumerable, but it's more convenient to work with List
+                .ToList(); // Extension method on INumerable
+                           // Without .ToList List<BaseballPlayers> will be replaced with
+                           // IEnumerable<BaseballPlayers
+
+            Console.WriteLine($"The lowest Age in TOP10: {list.Min(x => x.Age)}");
+            Console.WriteLine($"The highest Age in TOP10: {list.Max(x => x.Age)}");
+            Console.WriteLine($"The average Age in TOP10: {list.Average(x => x.Age)}");
         }
     }
-
-    static void MinMaxSumAverage
 }
